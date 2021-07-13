@@ -1,6 +1,9 @@
+cmake_minimum_required(VERSION 3.21)
+
 project(test)
 
 cmake_policy(SET CMP0079 NEW)
+cmake_policy(SET CMP0042 NEW)
 
 add_subdirectory(lib1)
 add_subdirectory(app1)
