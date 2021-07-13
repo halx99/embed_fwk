@@ -1,3 +1,3 @@
 project(app1)
 
-add_execute(app1 empty.cpp)
+add_executable(app1 MACOSX_BUNDLE empty.cpp)
