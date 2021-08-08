@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.20)
 
 project(test)
 
+set(CMAKE_XCODE_GENERATE_TOP_LEVEL_PROJECT_ONLY TRUE)
+
 cmake_policy(SET CMP0079 NEW)
 cmake_policy(SET CMP0042 NEW)
 
